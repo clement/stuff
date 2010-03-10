@@ -8,3 +8,5 @@ set shiftwidth=4
 set expandtab
 set incsearch
 syntax on
+
+autocmd BufWritePre *.py normal :%s/\s\+$//
