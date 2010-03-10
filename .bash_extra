@@ -1,5 +1,5 @@
 export VISUAL="vim"
-export PATH=$PATH":~/bin"
+export PATH=$PATH":/home/clement/bin"
 
 function mkcd {
     mkdir $1; cd $1;
