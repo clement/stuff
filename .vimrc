@@ -34,3 +34,6 @@ autocmd FileType htmldjango.html let g:surround_{char2nr("V")} = "{{\r}}"       
 noremap <C-n> :bn<CR>
 noremap <C-p> :bp<CR>
 set hidden " Can switch off an unsaved buffer
+
+" Shortcuts for nerdtree
+cnoremap :nt :NERDTree
