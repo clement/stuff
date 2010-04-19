@@ -7,6 +7,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set incsearch
+set number
+set backspace=eol,start
 syntax on
 
 autocmd BufWritePre *.py normal :%s/\s\+$//
