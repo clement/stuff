@@ -1,3 +1,6 @@
 [submodule "dependencies/vim-surround"]
 	path = dependencies/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "dependencies/nerdtree"]
+	path = dependencies/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git

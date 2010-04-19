@@ -1,0 +1,1 @@
+../../dependencies/nerdtree/doc/NERD_tree.txt
