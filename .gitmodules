@@ -1,0 +1,3 @@
+[submodule "dependencies/vim-surround"]
+	path = dependencies/vim-surround
+	url = git://github.com/tpope/vim-surround.git

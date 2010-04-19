@@ -15,3 +15,14 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+
+autocmd FileType python set ft=python.django " For SnipMate
+autocmd FileType html set ft=htmldjango.html " For SnipMate
+
+autocmd FileType htmldjango.html let g:surround_{char2nr("b")} = "{% block\1 \r..*\r &\1%}\r{% endblock %}"      " For surrounds
+autocmd FileType htmldjango.html let g:surround_{char2nr("i")} = "{% if\1 \r..*\r &\1%}\r{% endif %}"            " For surrounds
+autocmd FileType htmldjango.html let g:surround_{char2nr("w")} = "{% with\1 \r..*\r &\1%}\r{% endwith %}"        " For surrounds
+autocmd FileType htmldjango.html let g:surround_{char2nr("c")} = "{% comment\1 \r..*\r &\1%}\r{% endcomment %}"  " For surrounds
+autocmd FileType htmldjango.html let g:surround_{char2nr("f")} = "{% for\1 \r..*\r &\1%}\r{% endfor %}"          " For surrounds
+autocmd FileType htmldjango.html let g:surround_{char2nr("v")} = "{{ \r }}"                                      " For surrounds
+autocmd FileType htmldjango.html let g:surround_{char2nr("V")} = "{{\r}}"                                        " For surrounds
