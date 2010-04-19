@@ -39,3 +39,8 @@ set hidden " Can switch off an unsaved buffer
 
 " Shortcuts for nerdtree
 cnoremap :nt :NERDTree
+
+" Shortcut for fuzzyfinder textmate
+map <leader>t :FuzzyFinderTextMate<CR>
+map <leader>r :ruby finder.rescan!<CR>
+let g:fuzzy_ignore= "*.pyc,*.swp,*~"
