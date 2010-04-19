@@ -29,3 +29,8 @@ autocmd FileType htmldjango.html let g:surround_{char2nr("c")} = "{% comment\1 \
 autocmd FileType htmldjango.html let g:surround_{char2nr("f")} = "{% for\1 \r..*\r &\1%}\r{% endfor %}"          " For surrounds
 autocmd FileType htmldjango.html let g:surround_{char2nr("v")} = "{{ \r }}"                                      " For surrounds
 autocmd FileType htmldjango.html let g:surround_{char2nr("V")} = "{{\r}}"                                        " For surrounds
+
+" Switch easily between buffers
+noremap <C-n> :bn<CR>
+noremap <C-p> :bp<CR>
+set hidden " Can switch off an unsaved buffer
