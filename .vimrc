@@ -6,7 +6,6 @@ call pathogen#helptags()
 " Base options
 set showmode
 set vb t_vb=
-set ruler
 set hlsearch
 set smartindent
 set tabstop=4
@@ -15,6 +14,10 @@ set expandtab
 set incsearch
 set number
 set backspace=eol,start
+set title
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+set ruler
+set laststatus=2
 syntax on
 
 autocmd BufWritePre *.py normal :%s/\s\+$//

@@ -16,3 +16,6 @@
 [submodule "dependencies/solarized"]
 	path = dependencies/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "dependencies/fugitive"]
+	path = dependencies/fugitive
+	url = http://github.com/tpope/vim-fugitive.git
