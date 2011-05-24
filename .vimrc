@@ -21,7 +21,7 @@ set ruler
 set laststatus=2
 syntax on
 
-autocmd BufWritePre *.py normal :%s/\s\+$//
+autocmd BufWritePre *.py :%s/\s\+$//e
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
