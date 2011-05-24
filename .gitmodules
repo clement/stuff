@@ -10,3 +10,6 @@
 [submodule "dependencies/fuzzyfinder_textmate"]
 	path = dependencies/fuzzyfinder_textmate
 	url = git://github.com/sethbc/fuzzyfinder_textmate.git
+[submodule "dependencies/pathogen"]
+	path = dependencies/pathogen
+	url = https://github.com/tpope/vim-pathogen
