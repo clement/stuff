@@ -3,7 +3,7 @@
 	url = https://github.com/tpope/vim-surround.git
 [submodule "dependencies/nerdtree"]
 	path = dependencies/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/vim-scripts/The-NERD-tree.git
 [submodule "dependencies/fuzzy_file_finder"]
 	path = dependencies/fuzzy_file_finder
 	url = git://github.com/jamis/fuzzy_file_finder.git

@@ -44,7 +44,7 @@ noremap <C-p> :bp<CR>
 set hidden " Can switch off an unsaved buffer
 
 " Shortcuts for nerdtree
-cnoremap :nt :NERDTree
+nmap <leader>q :NERDTreeToggle<CR>
 
 " Shortcut for fuzzyfinder textmate
 map <leader>t :FuzzyFinderTextMate<CR>
