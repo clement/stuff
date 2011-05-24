@@ -56,6 +56,10 @@ map <leader>r :FuzzyFinderTextMateRefreshFiles<CR>
 let g:fuzzy_ignore= "*.pyc,*.swp,*~,*/env/*,*/env_*/*"
 
 
+" x or X doesn't touch the yank buffer
+vnoremap x "_x
+vnoremap X "_X
+
 " color scheme
 set background=dark
 let g:solarized_termtrans=1
