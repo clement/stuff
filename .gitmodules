@@ -19,3 +19,9 @@
 [submodule "dependencies/fugitive"]
 	path = dependencies/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+[submodule "dependencies/snipmate"]
+	path = dependencies/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "dependencies/django_snipmate"]
+	path = dependencies/django_snipmate
+	url = https://github.com/robhudson/snipmate_for_django.git
