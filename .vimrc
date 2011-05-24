@@ -51,3 +51,8 @@ map <leader>t :FuzzyFinderTextMate<CR>
 map <leader>r :FuzzyFinderTextMateRefreshFiles<CR>
 let g:fuzzy_ignore= "*.pyc,*.swp,*~,*/env/*,*/env_*/*"
 
+
+" color scheme
+set background=dark
+let g:solarized_termtrans=1
+colorscheme solarized

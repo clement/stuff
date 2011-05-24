@@ -13,3 +13,6 @@
 [submodule "dependencies/fuzzy_file_finder"]
 	path = dependencies/fuzzy_file_finder
 	url = https://github.com/jamis/fuzzy_file_finder.git
+[submodule "dependencies/solarized"]
+	path = dependencies/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
