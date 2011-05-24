@@ -2,19 +2,19 @@
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+filetype indent on
 filetype plugin on
 
 " Base options
 set showmode
 set vb t_vb=
 set hlsearch
-set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set incsearch
 set number
-set backspace=eol,start
+set backspace=eol,start,indent
 set title
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set ruler
