@@ -61,6 +61,8 @@ map <leader>t :FuzzyFinderTextMate<CR>
 map <leader>r :FuzzyFinderTextMateRefreshFiles<CR>
 let g:fuzzy_ignore= "*.pyc,*.swp,*~,*/env/*,*/env_*/*"
 
+" Shortcut for Gundo
+nmap <leader>u :GundoToggle<CR>
 
 " x or X doesn't touch the yank buffer
 vnoremap x "_x

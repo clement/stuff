@@ -25,3 +25,6 @@
 [submodule "dependencies/django_snipmate"]
 	path = dependencies/django_snipmate
 	url = https://github.com/robhudson/snipmate_for_django.git
+[submodule "dependencies/gundo"]
+	path = dependencies/gundo
+	url = https://github.com/sjl/gundo.vim.git
