@@ -47,6 +47,12 @@ noremap <C-n> :bn<CR>
 noremap <C-p> :bp<CR>
 set hidden " Can switch off an unsaved buffer
 
+" Windows operations / switch and close
+nnoremap <C-j> <C-w>j
+nnoremap <C-h> <C-w>h
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
 " Shortcuts for nerdtree
 nmap <leader>q :NERDTreeToggle<CR>
 
