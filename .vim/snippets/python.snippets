@@ -1,0 +1,14 @@
+snippet fro
+	from ${1:module} import ${2:obj}
+
+snippet pr
+	@property
+	def ${1:name}(self):
+		${2:pass}
+
+snippet prc
+	@property
+	def ${1:name}(self):
+		if not hasattr(self, '_$1'):
+			self._$1 = ${2:None}
+		return self._$1
