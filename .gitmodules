@@ -4,12 +4,12 @@
 [submodule "dependencies/nerdtree"]
 	path = dependencies/nerdtree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
-[submodule "dependencies/fuzzy_file_finder"]
-	path = dependencies/fuzzy_file_finder
-	url = git://github.com/jamis/fuzzy_file_finder.git
 [submodule "dependencies/fuzzyfinder_textmate"]
 	path = dependencies/fuzzyfinder_textmate
 	url = git://github.com/sethbc/fuzzyfinder_textmate.git
 [submodule "dependencies/pathogen"]
 	path = dependencies/pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule "dependencies/fuzzy_file_finder"]
+	path = dependencies/fuzzy_file_finder
+	url = https://github.com/jamis/fuzzy_file_finder.git

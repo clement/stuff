@@ -48,5 +48,6 @@ nmap <leader>q :NERDTreeToggle<CR>
 
 " Shortcut for fuzzyfinder textmate
 map <leader>t :FuzzyFinderTextMate<CR>
-map <leader>r :ruby finder.rescan!<CR>
-let g:fuzzy_ignore= "*.pyc,*.swp,*~"
+map <leader>r :FuzzyFinderTextMateRefreshFiles<CR>
+let g:fuzzy_ignore= "*.pyc,*.swp,*~,*/env/*,*/env_*/*"
+
