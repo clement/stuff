@@ -31,6 +31,7 @@ inoremap <Nul> <C-x><C-o>
 
 autocmd FileType python set ft=python.django " For SnipMate
 autocmd FileType html set ft=htmldjango.html " For SnipMate
+autocmd FileType javascript set ft=node.javascript " For SnipMate
 
 autocmd FileType htmldjango.html let g:surround_{char2nr("b")} = "{% block\1 \r..*\r &\1%}\r{% endblock %}"      " For surrounds
 autocmd FileType htmldjango.html let g:surround_{char2nr("i")} = "{% if\1 \r..*\r &\1%}\r{% endif %}"            " For surrounds
