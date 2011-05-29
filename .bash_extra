@@ -5,3 +5,23 @@ export PATH=$PATH:$HOME/bin
 function mkcd {
     mkdir $1; cd $1;
 }
+
+## Git prompt
+# Functions
+function parse_git_dirty {
+  git diff --quiet HEAD &>/dev/null
+  [[ $? == 1 ]] && echo "+"
+}
+function parse_git_branch {
+  br=$(git symbolic-ref -q HEAD 2> /dev/null)
+  r=$?
+  br=${br##refs/heads/}
+  br=${br:-HEAD}
+  [[ $r == 0 ]] && echo $br
+}
+function parse_git_dir {
+  br=$(parse_git_branch)
+  [[ $? == 0 ]] && echo  ":"
+}
+
+export PS1='\[\033[1;33m\]\u\[\033[0m\]@\h \[\033[0;34m\]\w\[\033[0m\]$(parse_git_dir)\[\033[0;33m\]$(parse_git_branch)\[\033[0;31m\]$(parse_git_dirty)\[\033[0m\]$ '
