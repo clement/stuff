@@ -65,6 +65,9 @@ let g:fuzzy_ignore= "*.pyc,*.swp,*~,*/env/*,*/env_*/*"
 " Shortcut for Gundo
 nmap <leader>u :GundoToggle<CR>
 
+" Shortcut for Fugitive
+map <leader>g :Gstatus<CR>
+
 " x or X doesn't touch the yank buffer
 vnoremap x "_x
 vnoremap X "_X
