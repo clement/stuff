@@ -60,7 +60,7 @@ nmap <leader>q :NERDTreeToggle<CR>
 " Shortcut for fuzzyfinder textmate
 map <leader>t :FuzzyFinderTextMate<CR>
 map <leader>r :FuzzyFinderTextMateRefreshFiles<CR>
-let g:fuzzy_ignore= "*.pyc,*.swp,*~,*/env/*,*/env_*/*"
+let g:fuzzy_ignore= "*.pyc,*.swp,*~,*/env/*,*/env_*/*,*/node_modules/*"
 
 " Shortcut for Gundo
 nmap <leader>u :GundoToggle<CR>
