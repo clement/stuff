@@ -8,3 +8,4 @@ alias gitk-lost="gitk \`git fsck --lost-found | grep commit | cut -d ' ' -f 3 | 
 alias gd="git diff --color"
 alias gdi="git diff --cached --color"
 alias gs="git status"
+alias gx="gitx --all"
