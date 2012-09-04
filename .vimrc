@@ -43,6 +43,10 @@ autocmd FileType htmldjango.html let g:surround_{char2nr("V")} = "{{\r}}"       
 
 let g:localvimrc_ask=0 " localvim rc : no nagging confirmation
 
+" Sparkup
+let g:sparkupExecuteMapping = '<c-y>'
+let g:sparkupNextMapping = '<c-t>'
+
 " Switch easily between buffers
 noremap <C-n> :bn<CR>
 noremap <C-p> :bp<CR>

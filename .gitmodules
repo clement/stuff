@@ -28,6 +28,9 @@
 [submodule "dependencies/gundo"]
 	path = dependencies/gundo
 	url = https://github.com/sjl/gundo.vim.git
+[submodule "dependencies/sparkup"]
+	path = dependencies/sparkup
+	url = https://github.com/rstacruz/sparkup.git
 [submodule "dependencies/vim-less"]
 	path = dependencies/vim-less
 	url = https://github.com/groenewege/vim-less.git
