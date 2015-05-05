@@ -9,8 +9,8 @@ filetype plugin on
 set showmode
 set vb t_vb=
 set hlsearch
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set incsearch
 set number

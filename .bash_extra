@@ -13,6 +13,8 @@ function mkcd {
     mkdir $1; cd $1;
 }
 
+set -o vi
+
 ## Git prompt
 # Functions
 function parse_git_dirty {
